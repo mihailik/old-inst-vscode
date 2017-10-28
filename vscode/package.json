@@ -4,10 +4,10 @@
   "description": "VSCode binary deployment",
   "main": "index.js",
   "scripts": {
-    "start": "./code"
+    "start": "node ./code.js"
   },
   "optionalDependencies": {
-    "@inst/vscode-bin-darwin"
+    "@inst/vscode-bin-darwin": "0.0.1"
   },
   "bin": "code",
   "keywords": ["vscode"],

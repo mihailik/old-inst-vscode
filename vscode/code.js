@@ -1,0 +1,1 @@
+require('vscode-bin-' + process.platform);
