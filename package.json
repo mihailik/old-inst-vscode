@@ -1,0 +1,17 @@
+{
+  "name": "npm-vscode",
+  "version": "0.0.5",
+  "description": "",
+  "main": "check-upgrade.js",
+  "scripts": {
+    "start": "./check-upgrade"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihailik/inst-vscode.git"
+  },
+  "keywords": ["vscode"],
+  "author": "Oleg Mihailik, using VSCode project from Microsoft",
+  "license": "ISC",
+  "homepage": "https://github.com/mihailik/inst-vscode#readme"
+}
