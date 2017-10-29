@@ -2,7 +2,7 @@
   "name": "@inst/vscode",
   "version": "0.0.4",
   "description": "VSCode binary deployment",
-  "main": "index.js",
+  "main": "code.js",
   "scripts": {
     "start": "./code.js"
   },

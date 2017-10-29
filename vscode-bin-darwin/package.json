@@ -2,6 +2,7 @@
   "name": "@inst/vscode-bin-darwin",
   "version": "0.0.4",
   "description": "BINARY ONLY - VSCode binary deployment for macOS",
+  "main": "code.js",
   "os": [ "darwin" ],
   "scripts": {
     "start": "./code.js"
