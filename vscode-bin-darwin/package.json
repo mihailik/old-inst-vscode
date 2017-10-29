@@ -1,6 +1,6 @@
 {
   "name": "@inst/vscode-bin-darwin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "BINARY ONLY - VSCode binary deployment for macOS",
   "os": [ "darwin" ],
   "scripts": {
