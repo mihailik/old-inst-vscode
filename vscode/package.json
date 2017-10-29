@@ -1,13 +1,13 @@
 {
   "name": "@inst/vscode",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "VSCode binary deployment",
   "main": "code.js",
   "scripts": {
     "start": "./code.js"
   },
   "optionalDependencies": {
-    "@inst/vscode-bin-darwin": "0.0.4"
+    "@inst/vscode-bin-darwin": "0.0.5"
   },
   "bin": {
     "code": "./code.js"
