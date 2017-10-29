@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-require('vscode-bin-' + process.platform);
+require('@inst/vscode-bin-' + process.platform);
