@@ -10,8 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/mihailik/inst-vscode.git"
   },
-  "keywords": ["vscode"],
+  "keywords": [
+    "vscode"
+  ],
   "author": "Oleg Mihailik, using VSCode project from Microsoft",
   "license": "ISC",
-  "homepage": "https://github.com/mihailik/inst-vscode#readme"
+  "homepage": "https://github.com/mihailik/inst-vscode#readme",
+  "dependencies": {
+    "puppeteer": "^0.12.0"
+  }
 }
