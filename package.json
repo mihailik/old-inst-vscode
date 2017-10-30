@@ -15,8 +15,5 @@
   ],
   "author": "Oleg Mihailik, using VSCode project from Microsoft",
   "license": "ISC",
-  "homepage": "https://github.com/mihailik/inst-vscode#readme",
-  "dependencies": {
-    "puppeteer": "^0.12.0"
-  }
+  "homepage": "https://github.com/mihailik/inst-vscode#readme"
 }

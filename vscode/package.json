@@ -1,18 +1,23 @@
 {
   "name": "@inst/vscode",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "VSCode binary deployment",
   "main": "code.js",
   "scripts": {
     "start": "./code.js"
   },
   "optionalDependencies": {
-    "@inst/vscode-bin-darwin": "0.0.6"
+    "@inst/vscode-bin-darwin": "0.0.7"
   },
   "bin": {
     "code": "./code.js"
   },
-  "keywords": ["vscode"],
+  "keywords": [
+    "vscode"
+  ],
   "author": "Oleg Mihailik, using VSCode project from Microsoft",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "unzip": "^0.1.11"
+  }
 }

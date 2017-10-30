@@ -1,13 +1,13 @@
 {
   "name": "@inst/vscode-bin-darwin",
   "version": "0.0.7",
-  "description": "BINARY ONLY - VSCode binary deployment for macOS",
+  "description": "BINARY ONLY - VSCode binary deployment for Windows",
   "main": "code.js",
   "os": [ "darwin" ],
   "scripts": {
     "start": "./code.js"
   },
-  "keywords": ["vscode", "darwin"],
+  "keywords": ["vscode", "windows", "win32"],
   "author": "Oleg Mihailik, using VSCode project from Microsoft",
   "license": "ISC"
 }
