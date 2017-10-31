@@ -34,9 +34,12 @@ Complications
 
 Binaries for VSCode are available in several flavours: macOS, Windows, Linux. To allow simple `npm install @inst/vscode` on any platform, two-tier package strucure is used:
 
-`@inst/vscode` platform-indepent root package
-`  @inst/vscode-bin-darwin` macOS binaries
-`  @inst/vscode-bin-win32` Windows binaries
+```
+@inst/vscode      platform-indepent root package
+  @inst/vscode-bin-darwin   macOS binaries
+  @inst/vscode-bin-win32    Windows binaries
+```
+
 
 The root `@inst/vscode` package comes with optional dependencies including all platforms, but NPM will only install dependencies matching the actual platform.
 
