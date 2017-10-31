@@ -1,11 +1,12 @@
 {
   "name": "@inst/vscode-bin-win32",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "BINARY ONLY - VSCode binary deployment for Windows",
   "main": "code.js",
   "os": [ "win32" ],
   "scripts": {
-    "start": "./bin/Code.exe"
+    "start": "./bin/Code.exe",
+    "postinstall": "node ./rename_node_modules.js"
   },
   "bin": {
     "code": "./bin/Code.exe"

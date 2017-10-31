@@ -8,7 +8,7 @@
   },
   "optionalDependencies": {
     "@inst/vscode-bin-darwin": "0.0.8",
-    "@inst/vscode-bin-win32": "0.0.9"
+    "@inst/vscode-bin-win32": "0.0.10"
   },
   "keywords": [ "vscode", "Visual Studio Code" ],
   "author": "Oleg Mihailik, using VSCode project from Microsoft",
