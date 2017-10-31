@@ -1,6 +1,6 @@
 {
   "name": "@inst/vscode-bin-win32",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "BINARY ONLY - VSCode binary deployment for Windows",
   "main": "code.js",
   "os": [ "win32" ],
