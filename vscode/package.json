@@ -1,14 +1,14 @@
 {
   "name": "@inst/vscode",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "VSCode binary deployment",
   "main": "code.js",
   "scripts": {
     "start": "./code.js"
   },
   "optionalDependencies": {
-    "@inst/vscode-bin-darwin": "0.0.13",
-    "@inst/vscode-bin-win32": "0.0.13"
+    "@inst/vscode-bin-darwin": "0.0.14",
+    "@inst/vscode-bin-win32": "0.0.14"
   },
   "keywords": [ "vscode", "Visual Studio Code" ],
   "author": "Oleg Mihailik, using VSCode project from Microsoft",

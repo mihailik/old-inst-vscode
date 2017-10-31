@@ -44,9 +44,9 @@ Note that `package.json{bin}` flag is defined at platform level, not root level.
 
 **node_modules inside binary deployments**
 
-Binaries for VSCode happen to include a directory named `node_modules` nested somewhere in app/resources subdirectories. That causes trouble when packaging -- standard `npm publish` command ignores `node_modules` directories [anywhere within](https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package) the package directory tree.
+Binaries for VSCode happen to include a directory named `node_modules` nested somewhere in app/resources subdirectories, as well as `package.json`. That causes trouble when packaging -- standard `npm publish` command ignores `node_modules` and `package.json` [anywhere within](https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package) the package directory tree.
 
 That means doing straight `npm publish` will create a package that's almost good. Except it silently excluded a bunch of important stuff. Judging from the package size it's just a few Mb smaller, but it's not runnable.
 
-The fix is to rename that nested `node_modules` directory to something like `x-node_modules` and rename it back in a post-install script.
+The fix is to rename that nested special-named files/directories to something like `x-node_modules` and rename it back in a post-install script.
 
