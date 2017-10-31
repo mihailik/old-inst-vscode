@@ -4,6 +4,6 @@ if (process.mainModule === module) {
 }
 
 module.exports = {
-  zip: path.resolve(__dirname, 'VSCode-win32-x64-1.17.2.zip'),
-  run: 'Code.exe'
+  zip: 'VSCode-win32-x64-1.17.2.zip',
+  run: 'bin/Code.exe'
 };

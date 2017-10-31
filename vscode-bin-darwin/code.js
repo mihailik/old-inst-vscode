@@ -4,7 +4,6 @@ if (process.mainModule === module) {
 }
 
 module.exports = {
-  zip: path.resolve(__dirname, 'VSCode-darwin-stable.zip'),
-  // run: 'Visual Studio Code.app'
+  zip: 'VSCode-darwin-stable.zip',
   run: 'Visual Studio Code.app/Contents/MacOS/Electron'
 };
