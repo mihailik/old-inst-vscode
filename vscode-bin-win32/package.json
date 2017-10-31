@@ -1,5 +1,5 @@
 {
-  "name": "@inst/vscode-bin-darwin",
+  "name": "@inst/vscode-bin-win32",
   "version": "0.0.7",
   "description": "BINARY ONLY - VSCode binary deployment for Windows",
   "main": "code.js",
