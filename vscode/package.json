@@ -7,17 +7,10 @@
     "start": "./code.js"
   },
   "optionalDependencies": {
-    "@inst/vscode-bin-darwin": "0.0.7"
+    "@inst/vscode-bin-darwin": "0.0.7",
+    "@inst/vscode-bin-win32": "0.0.7"
   },
-  "bin": {
-    "code": "./code.js"
-  },
-  "keywords": [
-    "vscode"
-  ],
+  "keywords": [ "vscode", "Visual Studio Code" ],
   "author": "Oleg Mihailik, using VSCode project from Microsoft",
-  "license": "ISC",
-  "dependencies": {
-    "unzip": "^0.1.11"
-  }
+  "license": "ISC"
 }

@@ -1,1 +1,3 @@
-node_modules
+vscode-bin-darwin/*.app
+vscode-bin-win32/bin
+zips

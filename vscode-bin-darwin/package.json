@@ -5,9 +5,12 @@
   "main": "code.js",
   "os": [ "darwin" ],
   "scripts": {
-    "start": "./code.js"
+    "start": "Visual Studio Code.app/Contents/MacOS/Electron"
   },
-  "keywords": ["vscode", "darwin"],
+  "bin": {
+    "code": "Visual Studio Code.app/Contents/MacOS/Electron"
+  },
+  "keywords": ["Visual Studio Code", "vscode", "darwin", "macOS", "OSX", "MacBook", "Apple"],
   "author": "Oleg Mihailik, using VSCode project from Microsoft",
   "license": "ISC"
 }

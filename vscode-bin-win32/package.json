@@ -5,9 +5,12 @@
   "main": "code.js",
   "os": [ "darwin" ],
   "scripts": {
-    "start": "./code.js"
+    "start": "./bin/Code.exe"
   },
-  "keywords": ["vscode", "windows", "win32"],
+  "bin": {
+    "code": "./bin/Code.exe"
+  },
+  "keywords": ["Visual Studio Code", "vscode", "windows", "win32"],
   "author": "Oleg Mihailik, using VSCode project from Microsoft",
   "license": "ISC"
 }
