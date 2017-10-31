@@ -1,6 +1,6 @@
 {
   "name": "@inst/vscode",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "VSCode binary deployment",
   "main": "code.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "optionalDependencies": {
     "@inst/vscode-bin-darwin": "0.0.8",
-    "@inst/vscode-bin-win32": "0.0.8"
+    "@inst/vscode-bin-win32": "0.0.9"
   },
   "keywords": [ "vscode", "Visual Studio Code" ],
   "author": "Oleg Mihailik, using VSCode project from Microsoft",
