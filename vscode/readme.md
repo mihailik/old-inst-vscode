@@ -1,5 +1,5 @@
-Visual Studio Code binaries - packages as NPM package
-=====================================================
+Visual Studio Code binaries - as NPM package
+============================================
 
 Need a self-contained `VSCode` copy, but don't want to/cannot/suspicious to system-wide installation? Simply run:
 
